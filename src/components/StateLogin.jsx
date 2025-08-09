@@ -5,11 +5,17 @@ export default function StateLogin() {
         email: '',
         password: ''
     })
-    
+
     function handleInputChange(identifier, value) {
         setEnteredValue(prevState => ({
             ...(prevState),
             [identifier]: value
         }))
     }
+
+    return (
+        <div>
+
+        </div>
+    )
 }
